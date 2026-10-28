@@ -16,11 +16,11 @@ The public VPK and source archive include a short generic sample deck. Personal 
 
 ## PS Vita
 
-VitaAnki 1.36 supports offline spaced review, card browsing, deck creation and management, compatible image cards, deck transfer with Android over local Wi-Fi, and optional live review against Anki Desktop through AnkiConnect. It starts offline; choose **Sync with PC** to connect. See [Vita build and usage notes](vita/README.md).
+VitaAnki 1.36 supports offline spaced review, card browsing, deck creation and management, compatible image cards, deck transfer with Android over local Wi-Fi, and optional live review against Anki Desktop through AnkiConnect. It starts offline; choose **Sync with PC** to connect. See the vita/README.md inside the source archive for build and usage notes.
 
 ## Android companion
 
-Android 0.4.0 source includes offline study, compatible deck import, supported image cards, AnkiConnect review, and local Wi-Fi deck transfer with the Vita. See [Android build and usage notes](android/README.md). This release does not include a verified APK.
+Android 0.4.0 source includes offline study, compatible deck import, supported image cards, AnkiConnect review, and local Wi-Fi deck transfer with the Vita. See the android/README.md inside the source archive for build and usage notes. This release does not include a verified APK.
 
 ## Anki Desktop connection
 
@@ -30,6 +30,6 @@ Offline review progress stays on the device and does not automatically merge int
 
 ## Source layout
 
-- vita/ contains VitaSDK C source, build files, example sync settings, and a generic sample deck.
-- android/ contains Android companion source and a generic sample deck.
+The source archive contains the vita/ and android/ source trees, their README files, and a generic sample deck.
+
 - No license has been selected yet, so reuse and redistribution terms remain undecided.
