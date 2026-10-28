@@ -18,7 +18,7 @@
 - Review cards with spaced repetition and save progress on the Vita.
 - Browse cards and display supported card images.
 - Optionally connect to Anki Desktop through AnkiConnect on your local network.
-- Transfer a deck from VitaAnki Mobile over local Wi-Fi.
+- Android companion app in development, with local Wi-Fi deck transfer to the Vita planned.
 
 Direct AnkiWeb sync is not implemented. Live PC review requires Anki Desktop and AnkiConnect.
 
@@ -32,6 +32,12 @@ Direct AnkiWeb sync is not implemented. Live PC review requires Anki Desktop and
 The preview includes a small generic sample deck. It contains no personal decks, credentials, or background music.
 
 > **Alpha notice:** APKG import still produces SQLite error 7 on some Vita setups. The latest diagnostics have not yet been confirmed to fix it on hardware. Keep a separate backup of your decks and study progress.
+
+## Android companion APK
+
+The Android companion app is in development for phones and tablets, with deck study and transfer to VitaAnki over local Wi-Fi planned.
+
+**APK download:** No Android APK is published yet. A tested Android build will be posted on the [Releases](https://github.com/Evangetsroms/VitaAnki/releases) page when it is ready.
 
 ## Connect to Anki Desktop
 
@@ -61,9 +67,3 @@ The build creates `vitaanki.vpk`. Background music is disabled by default; no mu
 ## Report a bug
 
 Include the VitaAnki version, Vita system software version, the action you took, and the full error text. Do not attach `sync.ini`, personal decks, or private media.
-
-## Credits and reuse
-
-VitaAnki is an independent project and is not an official Anki product. The Anki logo is resized and palette-converted for PS Vita compatibility; the mark is credited to Alex Fraser and links to [Anki](https://apps.ankiweb.net/). Anki is a trademark of its respective owner.
-
-No software license has been selected yet. The public preview is for evaluation; reuse and redistribution terms are still to be decided.
