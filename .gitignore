@@ -1,0 +1,24 @@
+# Local decks, media, settings, progress, and credentials
+sync.ini
+*.media/
+imported.anki2
+imported.media
+active-deck.txt
+active-deck.tmp
+active-deck.bak
+progress*.tsv
+settings.ini
+music.log
+sync.log
+
+# User decks and audio; keep test content out of public commits
+*.apkg
+*.mp3
+/decks/Anatomy_220_Exam_2.tsv
+
+# Build output
+/build/
+/build-*/
+*.vpk
+*.elf
+*.velf
