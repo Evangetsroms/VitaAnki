@@ -10,7 +10,7 @@ VitaAnki is not affiliated with Anki.
 
 - **PS Vita:** install the .vpk from the [1.36 preview release](https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview) with VitaShell.
 - **Android:** the 0.4.0 companion source is included in the source archive. No installable APK is published yet.
-- **Source:** download the combined Vita and Android source archive attached to the release.
+- **Source:** [download the combined Vita and Android source archive](VitaAnki-1.36-Public-Source.zip), also attached to the release.
 
 The public VPK and source archive include a short generic sample deck. Personal decks, music, sync credentials, and user backups are excluded.
 
