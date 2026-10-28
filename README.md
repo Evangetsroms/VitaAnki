@@ -1,6 +1,11 @@
-# VitaAnki
+<div align="center">
+  <img src="VitaAnki-icon.png" alt="VitaAnki icon" width="116" />
+  <h1>VitaAnki</h1>
+  <p>Flashcard study for PS Vita, with Android companion source.</p>
+  <p><a href="https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview">Get the Vita 1.36 preview</a> · <a href="VitaAnki-1.36-Public-Source.zip">Download current source</a></p>
+</div>
 
-VitaAnki is an independent flashcard app for PS Vita, with Android companion source. It supports offline study, compatible Anki deck imports, and optional local-network connections to Anki Desktop.
+VitaAnki is an independent flashcard app for PS Vita. It supports offline study, compatible Anki deck imports, and optional local-network connections to Anki Desktop.
 
 **Current public preview:** [VitaAnki 1.36 for PS Vita](https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview). Android 0.4.0 source is included; a verified Android APK is not available in this release.
 
