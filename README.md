@@ -1,40 +1,22 @@
-<div align="center">
-  <img src="VitaAnki-icon.png" alt="VitaAnki icon" width="116" />
-  <h1>VitaAnki</h1>
-  <p>Flashcard study for PS Vita, with Android companion source.</p>
-  <p><a href="https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview">Get the Vita 1.36 preview</a> · <a href="VitaAnki-1.36-Public-Source.zip">Download current source</a></p>
-</div>
+# VitaAnki
 
-VitaAnki is an independent flashcard app for PS Vita. It supports offline study, compatible Anki deck imports, and optional local-network connections to Anki Desktop.
+VitaAnki is an independent flashcard app for PS Vita, with Android companion source. The current public preview is **Vita 1.51** and **Android 0.4.1 source**.
 
-**Current public preview:** [VitaAnki 1.36 for PS Vita](https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview). Android 0.4.0 source is included; a verified Android APK is not available in this release.
+- [Download the PS Vita VPK](https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.51-preview)
+- [Download combined Vita and Android source](https://github.com/Evangetsroms/VitaAnki/releases/download/v1.51-preview/VitaAnki-1.51-Public-Source.zip)
 
-VitaAnki is not affiliated with Anki.
+The public preview contains a small generic sample deck. It excludes personal decks, audio files, sync credentials, and backups. Android source is included; there is no verified APK in this release.
 
-## Downloads
+## Vita 1.51
 
-- **PS Vita:** install the .vpk from the [1.36 preview release](https://github.com/Evangetsroms/VitaAnki/releases/tag/v1.36-preview) with VitaShell.
-- **Android:** the 0.4.0 companion source is included in the source archive. No installable APK is published yet.
-- **Source:** [download the combined Vita and Android source archive](VitaAnki-1.36-Public-Source.zip), also attached to the release.
-
-The public VPK and source archive include a short generic sample deck. Personal decks, music, sync credentials, and user backups are excluded.
-
-## PS Vita
-
-VitaAnki 1.36 supports offline spaced review, card browsing, deck creation and management, compatible image cards, deck transfer with Android over local Wi-Fi, and optional live review against Anki Desktop through AnkiConnect. It starts offline; choose **Sync with PC** to connect. See the vita/README.md inside the source archive for build and usage notes.
+Recent updates add folder browsing and management, folder-wide due review queues, more visible review and learning counts, controlled batches of new cards, per-deck daily limits and scheduling, theme refinements, and deck create/rename improvements. See [Vita release notes](VitaAnki-1.51-Release-Notes.md) and [Vita build and usage notes](vita/README.md).
 
 ## Android companion
 
-Android 0.4.0 source includes offline study, compatible deck import, supported image cards, AnkiConnect review, and local Wi-Fi deck transfer with the Vita. See the android/README.md inside the source archive for build and usage notes. This release does not include a verified APK.
+Android 0.4.1 source includes offline study, compatible Anki deck import, supported image cards, AnkiConnect review, and local Wi-Fi transfer to and from the Vita. See [Android build notes](android/README.md). APK builds are not published until a current build can be verified.
 
-## Anki Desktop connection
+## Sync and limitations
 
-Live PC review uses the AnkiConnect add-on while Anki Desktop is running. It is not an AnkiWeb login or direct AnkiWeb sync. Keep AnkiConnect on a trusted private network and use a strong API key. Keep sync.ini and its key private.
+Live review with Anki Desktop requires the AnkiConnect add-on while the desktop app is running on the same trusted private network. VitaAnki does not log into or sync directly with AnkiWeb. Offline progress is stored on the device and does not automatically merge into Anki Desktop. APKG support is limited; complex templates, audio, and some note types may not render. VitaAnki is an alpha homebrew project; keep backups of your decks and progress.
 
-Offline review progress stays on the device and does not automatically merge into Anki Desktop. APKG support is limited; complex templates and audio may not render. The Vita app remains an alpha preview and may have stability problems with some decks or Vita setups. Keep backups of decks and study progress.
-
-## Source layout
-
-The source archive contains the vita/ and android/ source trees, their README files, and a generic sample deck.
-
-- No license has been selected yet, so reuse and redistribution terms remain undecided.
+VitaAnki is not affiliated with Anki.
